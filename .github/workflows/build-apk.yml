@@ -1,5 +1,5 @@
-# Free alternative to Codemagic macOS runners: GitHub-hosted Ubuntu has apt-get.
-# Repo: Actions tab → "Build APK (Buildozer)" → Run workflow. Download APK from Artifacts.
+# Buildozer uses ~/.buildozer/android/platform/android-sdk — licenses must be accepted
+# or sdkmanager skips build-tools and aidl is missing.
 name: Build APK (Buildozer)
 
 on:
@@ -7,19 +7,22 @@ on:
   push:
     branches: [main]
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-22.04
     timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Install system packages
         run: |
           set -e
           export DEBIAN_FRONTEND=noninteractive
           sudo apt-get update -y
-          sudo apt-get install -y git zip unzip openjdk-17-jdk build-essential \
+          sudo apt-get install -y git zip unzip wget openjdk-17-jdk build-essential \
             libffi-dev libssl-dev autoconf libtool pkg-config zlib1g-dev \
             python3 python3-pip python3-dev python3-venv ccache
 
@@ -30,14 +33,42 @@ jobs:
           pip install --upgrade pip
           pip install cython buildozer
 
+      # Same SDK root Buildozer uses; accept licenses before buildozer runs sdkmanager.
+      - name: Android command-line tools + accept SDK licenses
+        run: |
+          set -e
+          SDK="${HOME}/.buildozer/android/platform/android-sdk"
+          mkdir -p "${SDK}/cmdline-tools"
+          if [ ! -x "${SDK}/cmdline-tools/latest/bin/sdkmanager" ]; then
+            TMP="$(mktemp -d)"
+            cd "${TMP}"
+            wget -q -O cmdline.zip "https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip"
+            unzip -qo cmdline.zip
+            rm -rf "${SDK}/cmdline-tools/latest"
+            mkdir -p "${SDK}/cmdline-tools"
+            mv cmdline-tools "${SDK}/cmdline-tools/latest"
+            cd /
+            rm -rf "${TMP}"
+          fi
+          export JAVA_HOME="$(dirname "$(dirname "$(readlink -f "$(which javac)")")")"
+          # GHA bash uses pipefail; "yes" may get SIGPIPE and non-zero — turn pipefail off for this line.
+          set +o pipefail
+          yes | "${SDK}/cmdline-tools/latest/bin/sdkmanager" --sdk_root="${SDK}" --licenses
+          set -o pipefail
+
       - name: Build debug APK
         working-directory: android_app
+        env:
+          JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64
         run: |
+          set -e
           . ~/buildozer-env/bin/activate
           buildozer android debug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: debug-apk
           path: android_app/bin/*.apk
+          if-no-files-found: warn
