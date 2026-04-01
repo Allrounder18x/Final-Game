@@ -1,0 +1,2163 @@
+{
+  "_defaults": {
+    "tier": 2
+  },
+  "rosters": {
+    "India": {
+      "Mumbai Indians": [
+        {
+          "name": "Jonny Bairstow",
+          "age": 35,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Bevon Jacobs",
+          "age": 22,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Robin Minz",
+          "age": 22,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Rohit Sharma",
+          "age": 37,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Krishnan Shrijith",
+          "age": 28,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "age": 34,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium",
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Hardik Pandya",
+          "age": 31,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Charith Asalanka",
+          "age": 27,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Raj Bawa",
+          "age": 21,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Naman Dhir",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Mitchell Santner",
+          "age": 32,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Tilak Varma",
+          "age": 21,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Ashwani Kumar",
+          "age": 23,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium"
+          ]
+        },
+        {
+          "name": "Trent Boult",
+          "age": 35,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Fast medium"
+          ]
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "age": 30,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Deepak Chahar",
+          "age": 32,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Richard Gleeson",
+          "age": 36,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Mujeeb Ur Rahman",
+          "age": 23,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Satyanarayana Raju",
+          "age": 25,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Karn Sharma",
+          "age": 37,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak Googly"
+          ]
+        },
+        {
+          "name": "Raghu Sharma",
+          "age": 31,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Arjun Tendulkar",
+          "age": 25,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium fast"
+          ]
+        },
+        {
+          "name": "Reece Topley",
+          "age": 30,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Fast medium"
+          ]
+        }
+      ],
+      "Chennai Super Kings": [
+        {
+          "name": "MS Dhoni",
+          "age": 43,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "C Andre Siddarth",
+          "age": 18,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Dewald Brevis",
+          "age": 21,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Devon Conway",
+          "age": 33,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Ayush Mhatre",
+          "age": 17,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Urvil Patel",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Shaik Rasheed",
+          "age": 20,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Rahul Tripathi",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Ravichandran Ashwin",
+          "age": 38,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Sam Curran",
+          "age": 26,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium fast"
+          ]
+        },
+        {
+          "name": "Shivam Dube",
+          "age": 31,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Ramakrishna Ghosh",
+          "age": 27,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Deepak Hooda",
+          "age": 29,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "age": 35,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Anshul Kamboj",
+          "age": 23,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Vijay Shankar",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Khaleel Ahmed",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Fast medium"
+          ]
+        },
+        {
+          "name": "Shreyas Gopal",
+          "age": 31,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Mukesh Choudhary",
+          "age": 28,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium"
+          ]
+        },
+        {
+          "name": "Kamlesh Nagarkoti",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Noor Ahmad",
+          "age": 19,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Wrist spin"
+          ]
+        },
+        {
+          "name": "Matheesha Pathirana",
+          "age": 21,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        }
+      ],
+      "Royal Challengers Bangalore": [
+        {
+          "name": "Rajat Patidar",
+          "age": 31,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Mayank Agarwal",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Swastik Chikara",
+          "age": 19,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Tim David",
+          "age": 28,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Virat Kohli",
+          "age": 35,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Phil Salt",
+          "age": 28,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Tim Seifert",
+          "age": 29,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Jitesh Sharma",
+          "age": 31,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Manoj Bhandage",
+          "age": 26,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Liam Livingstone",
+          "age": 31,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak",
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Mohit Rathee",
+          "age": 25,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Krunal Pandya",
+          "age": 33,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Romario Shepherd",
+          "age": 29,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Abhinandan Singh",
+          "age": 27,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Josh Hazlewood",
+          "age": 33,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Bhuvneshwar Kumar",
+          "age": 34,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Blessing Muzarabani",
+          "age": 28,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Rasikh Salam",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Suyash Sharma",
+          "age": 21,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak Googly"
+          ]
+        },
+        {
+          "name": "Swapnil Singh",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Nuwan Thushara",
+          "age": 30,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Yash Dayal",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium fast"
+          ]
+        }
+      ],
+      "Kolkata Knight Riders": [
+        {
+          "name": "Ajinkya Rahane",
+          "age": 36,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Quinton de Kock",
+          "age": 31,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Manish Pandey",
+          "age": 35,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Angkrish Raghuvanshi",
+          "age": 20,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Rahmanullah Gurbaz",
+          "age": 22,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Ramandeep Singh",
+          "age": 27,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Rinku Singh",
+          "age": 27,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Luvnith Sisodia",
+          "age": 24,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium"
+          ]
+        },
+        {
+          "name": "Venkatesh Iyer",
+          "age": 29,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Sunil Narine",
+          "age": 36,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Anukul Roy",
+          "age": 25,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Andre Russell",
+          "age": 36,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Vaibhav Arora",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Harshit Rana",
+          "age": 22,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Spencer Johnson",
+          "age": 28,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Fast"
+          ]
+        },
+        {
+          "name": "Mayank Markande",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Anrich Nortje",
+          "age": 30,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Chetan Sakariya",
+          "age": 26,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium fast"
+          ]
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak Googly"
+          ]
+        },
+        {
+          "name": "Shivam Shukla",
+          "age": 28,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        }
+      ],
+      "Delhi Capitals": [
+        {
+          "name": "Faf du Plessis",
+          "age": 40,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Abishek Porel",
+          "age": 22,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Karun Nair",
+          "age": 32,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "KL Rahul",
+          "age": 32,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Sediqullah Atal",
+          "age": 23,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Tristan Stubbs",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Axar Patel",
+          "age": 30,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Ajay Mandal",
+          "age": 28,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Manvanth Kumar",
+          "age": 20,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Sameer Rizvi",
+          "age": 20,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Madhav Tiwari",
+          "age": 21,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Dushmantha Chameera",
+          "age": 32,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "age": 29,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Wrist spin"
+          ]
+        },
+        {
+          "name": "Mukesh Kumar",
+          "age": 31,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Mustafizur Rahman",
+          "age": 29,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Fast medium"
+          ]
+        },
+        {
+          "name": "Darshan Nalkande",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "T Natarajan",
+          "age": 33,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium"
+          ]
+        },
+        {
+          "name": "Vipraj Nigam",
+          "age": 20,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Mohit Sharma",
+          "age": 36,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Tripurana Vijay",
+          "age": 23,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        }
+      ],
+      "Punjab Kings": [
+        {
+          "name": "Shreyas Iyer",
+          "age": 29,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak",
+            "Legbreak Googly"
+          ]
+        },
+        {
+          "name": "Priyansh Arya",
+          "age": 23,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Pyla Avinash",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Harnoor Singh",
+          "age": 21,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Josh Inglis",
+          "age": 29,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Prabhsimran Singh",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Vishnu Vinod",
+          "age": 30,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Nehal Wadhera",
+          "age": 24,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Azmatullah Omarzai",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Aaron Hardie",
+          "age": 25,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Marco Jansen",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Fast"
+          ]
+        },
+        {
+          "name": "Musheer Khan",
+          "age": 19,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Mitchell Owen",
+          "age": 23,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Shashank Singh",
+          "age": 32,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium",
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Marcus Stoinis",
+          "age": 35,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Suryansh Shedge",
+          "age": 21,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Arshdeep Singh",
+          "age": 25,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium fast"
+          ]
+        },
+        {
+          "name": "Xavier Bartlett",
+          "age": 25,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Yuzvendra Chahal",
+          "age": 34,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak Googly"
+          ]
+        },
+        {
+          "name": "Praveen Dubey",
+          "age": 31,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak Googly"
+          ]
+        },
+        {
+          "name": "Harpreet Brar",
+          "age": 29,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Kyle Jamieson",
+          "age": 29,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Kuldeep Sen",
+          "age": 28,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Vijaykumar Vyshak",
+          "age": 27,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Yash Thakur",
+          "age": 25,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        }
+      ],
+      "Rajasthan Royals": [
+        {
+          "name": "Sanju Samson",
+          "age": 29,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Shubham Dubey",
+          "age": 30,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Shimron Hetmyer",
+          "age": 27,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Yashasvi Jaiswal",
+          "age": 22,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Dhruv Jurel",
+          "age": 23,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Riyan Parag",
+          "age": 22,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak",
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Lhuan-dre Pretorius",
+          "age": 18,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Kunal Singh Rathore",
+          "age": 22,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Wanindu Hasaranga",
+          "age": 27,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Ashok Sharma",
+          "age": 22,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Tushar Deshpande",
+          "age": 29,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Fazalhaq Farooqi",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Fast medium"
+          ]
+        },
+        {
+          "name": "Kumar Kartikeya",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox",
+            "Left arm Wrist spin"
+          ]
+        },
+        {
+          "name": "Akash Madhwal",
+          "age": 30,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Kwena Maphaka",
+          "age": 18,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Fast"
+          ]
+        },
+        {
+          "name": "Maheesh Theekshana",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Yudhvir Singh",
+          "age": 27,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        }
+      ],
+      "Sunrisers Hyderabad": [
+        {
+          "name": "Travis Head",
+          "age": 30,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Ishan Kishan",
+          "age": 26,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak",
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Sachin Baby",
+          "age": 35,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Aniket Verma",
+          "age": 22,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Abhishek Sharma",
+          "age": 24,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Harsh Dubey",
+          "age": 22,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Abhinav Manohar",
+          "age": 30,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak Googly"
+          ]
+        },
+        {
+          "name": "Kamindu Mendis",
+          "age": 26,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak",
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "age": 21,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Harshal Patel",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Atharva Taide",
+          "age": 24,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Pat Cummins",
+          "age": 31,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Rahul Chahar",
+          "age": 25,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak Googly"
+          ]
+        },
+        {
+          "name": "Eshan Malinga",
+          "age": 23,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Mohammed Shami",
+          "age": 34,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Simarjeet Singh",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium fast"
+          ]
+        },
+        {
+          "name": "Jaydev Unadkat",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium"
+          ]
+        },
+        {
+          "name": "Zeeshan Ansari",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak Googly"
+          ]
+        }
+      ],
+      "Gujarat Titans": [
+        {
+          "name": "Shubman Gill",
+          "age": 25,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Anuj Rawat",
+          "age": 25,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Kumar Kushagra",
+          "age": 20,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Kusal Mendis",
+          "age": 29,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Sherfane Rutherford",
+          "age": 26,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Sai Sudharsan",
+          "age": 23,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "M Shahrukh Khan",
+          "age": 29,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Rashid Khan",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak Googly"
+          ]
+        },
+        {
+          "name": "Karim Janat",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Mahipal Lomror",
+          "age": 24,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Dasun Shanaka",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Nishant Sindhu",
+          "age": 20,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Manav Suthar",
+          "age": 22,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Rahul Tewatia",
+          "age": 31,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Washington Sundar",
+          "age": 25,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Arshad Khan",
+          "age": 26,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Fast medium"
+          ]
+        },
+        {
+          "name": "Gerald Coetzee",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Gurnoor Brar",
+          "age": 24,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Kulwant Khejroliya",
+          "age": 32,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium fast"
+          ]
+        },
+        {
+          "name": "Mohammed Siraj",
+          "age": 30,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Prasidh Krishna",
+          "age": 28,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Kagiso Rabada",
+          "age": 29,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Sai Kishore",
+          "age": 27,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Ishant Sharma",
+          "age": 36,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Jayant Yadav",
+          "age": 34,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        }
+      ],
+      "Lucknow Super Giants": [
+        {
+          "name": "Rishabh Pant",
+          "age": 27,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Abdul Samad",
+          "age": 23,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Ayush Badoni",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Matthew Breetzke",
+          "age": 25,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Himmat Singh",
+          "age": 27,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Aryan Juyal",
+          "age": 22,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": []
+        },
+        {
+          "name": "Aiden Markram",
+          "age": 30,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "David Miller",
+          "age": 35,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Nicholas Pooran",
+          "age": 29,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Offbreak"
+          ]
+        },
+        {
+          "name": "Yuvraj Chaudhary",
+          "age": 23,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Rajvardhan Hangargekar",
+          "age": 21,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Arshin Kulkarni",
+          "age": 19,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Mitchell Marsh",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Shahbaz Ahmed",
+          "age": 29,
+          "batting_styles": [
+            "Left hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        },
+        {
+          "name": "Shardul Thakur",
+          "age": 33,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Medium"
+          ]
+        },
+        {
+          "name": "Akash Deep",
+          "age": 27,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Akash Singh",
+          "age": 22,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Left arm Medium fast"
+          ]
+        },
+        {
+          "name": "Avesh Khan",
+          "age": 27,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast medium"
+          ]
+        },
+        {
+          "name": "Will O'Rourke",
+          "age": 23,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Prince Yadav",
+          "age": 22,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Right arm Fast"
+          ]
+        },
+        {
+          "name": "Digvesh Rathi",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak"
+          ]
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "age": 24,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Legbreak Googly"
+          ]
+        },
+        {
+          "name": "Manimaran Siddharth",
+          "age": 26,
+          "batting_styles": [
+            "Right hand Bat"
+          ],
+          "bowling_styles": [
+            "Slow Left arm Orthodox"
+          ]
+        }
+      ]
+    }
+  }
+}

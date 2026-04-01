@@ -1,0 +1,25 @@
+workflows:
+  android-kivy-debug:
+    name: Android Kivy Debug APK
+    max_build_duration: 120
+    environment:
+      vars:
+        APP_DIR: android_app
+      python: 3.11
+    scripts:
+      - name: Install Linux dependencies
+        script: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            git zip unzip openjdk-17-jdk build-essential \
+            libffi-dev libssl-dev autoconf libtool pkg-config zlib1g-dev
+      - name: Install Buildozer
+        script: |
+          python -m pip install --upgrade pip
+          python -m pip install cython buildozer
+      - name: Build debug APK
+        script: |
+          cd "$APP_DIR"
+          buildozer android debug
+    artifacts:
+      - android_app/bin/*.apk

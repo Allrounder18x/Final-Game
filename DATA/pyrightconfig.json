@@ -1,0 +1,10 @@
+{
+  "include": ["."],
+  "exclude": ["**/__pycache__", "**/.venv"],
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "pythonVersion": "3.12"
+    }
+  ]
+}

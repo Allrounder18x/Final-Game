@@ -1,0 +1,54 @@
+Cricket Manager Professional Edition
+
+Cricket Manager Professional Edition is an immersive cricket management simulation featuring over 700 players across 48 international teams. Manage your favorite nation across T20, ODI, and Test formats while developing players, competing in leagues, and chasing World Cup glory.
+
+
+Key Features
+
+Multi-Format Cricket
+- Three formats with authentic simulation: T20 averaging 170 runs per innings, strategic 50-over ODIs, and five-day Test matches with pitch deterioration
+- Four-tier league system per format with promotion and relegation
+- 12 teams per tier competing in round-robin seasons
+
+Real Players and Teams
+- All 12 Test nations with real player squads including stars like Kohli, Smith, Root, and Babar Azam
+- 36 associate nations from Scotland to Brazil
+- Players rated 1-100 for batting, bowling, and fielding with age-based development
+
+Player Traits System
+- Positive traits like Power Hitter, Finisher, Death Bowler, and Wicket Taker enhance performance in specific situations
+- Negative traits like Inconsistent, Nervous Starter, and Pressure Prone create realistic weaknesses
+- Traits evolve based on performance throughout careers
+
+Youth Development
+- 15-player U21 squads for every team
+- Youth players have high potential but lower current skills
+- Promote talented youngsters to senior squads when ready
+
+Training System
+- Limited training points per season to improve player skills
+- Younger players develop faster, elite skills are harder to improve
+- Strategic decisions on where to invest resources
+
+World Cups
+- Nine tournaments every two years across all formats
+- Main World Cups, U21 World Cups, and Associate World Cups
+- Substantial credit rewards for tournament success
+
+Credits and Loot Packs
+- Earn credits through wins, centuries, five-wicket hauls, and tournament success
+- Open loot packs for random rewards including youth players, skill boosts, and new traits
+
+Statistics and Rankings
+- Comprehensive stats filtered by format, tier, team, and season
+- Performance-based rankings for batting, bowling, all-rounders, and fielding
+- Detailed player profiles with career history and milestones
+
+
+How to Play
+
+Start by reviewing your squad in the Players screen. Check upcoming fixtures, then allocate training points to develop key players. Navigate to Leagues to simulate matches and track standings. Monitor youth prospects for promotion opportunities.
+
+Balance short-term results with long-term development. Invest in youth, manage squad age profiles, and prepare for World Cup years. Success requires strategic thinking across multiple seasons.
+
+Take charge of your nation and write your chapter in cricketing history.

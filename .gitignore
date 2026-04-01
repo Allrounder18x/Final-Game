@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.so
+.buildozer/
+bin/
+dist/
+.gradle/
+*.apk
+*.aab
+.idea/
+.vscode/
+*.log
+android_runtime/
