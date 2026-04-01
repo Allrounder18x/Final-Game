@@ -28,7 +28,12 @@ from kivy.lang import Builder
 from kivy.uix.screenmanager import ScreenManager
 
 from cricket_manager.android.service_facade import CricketAppService
-from android_app.screens import register_screens
+try:
+    # Desktop/source checkout import path.
+    from android_app.screens import register_screens
+except ModuleNotFoundError:
+    # APK runtime (source.dir = android_app): package prefix is not present.
+    from screens import register_screens
 
 KV_ROOT = """
 ScreenManager:
