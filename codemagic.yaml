@@ -2,6 +2,9 @@ workflows:
   android-kivy-debug:
     name: Android Kivy Debug APK
     max_build_duration: 120
+    # Without this, Codemagic often uses macOS — there is no apt-get there (sudo: apt-get: command not found).
+    # linux_x2 = Ubuntu; Codemagic may require a paid plan for this instance type (see their machine-type docs).
+    instance_type: linux_x2
     # Kivy/Buildozer lives in android_app; Codemagic wizard may not auto-detect it (no Flutter/Gradle at repo root).
     working_directory: android_app
     scripts:

@@ -1,0 +1,43 @@
+# Free alternative to Codemagic macOS runners: GitHub-hosted Ubuntu has apt-get.
+# Repo: Actions tab → "Build APK (Buildozer)" → Run workflow. Download APK from Artifacts.
+name: Build APK (Buildozer)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install system packages
+        run: |
+          set -e
+          export DEBIAN_FRONTEND=noninteractive
+          sudo apt-get update -y
+          sudo apt-get install -y git zip unzip openjdk-17-jdk build-essential \
+            libffi-dev libssl-dev autoconf libtool pkg-config zlib1g-dev \
+            python3 python3-pip python3-dev python3-venv ccache
+
+      - name: Install Buildozer (venv)
+        run: |
+          python3 -m venv ~/buildozer-env
+          . ~/buildozer-env/bin/activate
+          pip install --upgrade pip
+          pip install cython buildozer
+
+      - name: Build debug APK
+        working-directory: android_app
+        run: |
+          . ~/buildozer-env/bin/activate
+          buildozer android debug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-apk
+          path: android_app/bin/*.apk
