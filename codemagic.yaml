@@ -2,10 +2,7 @@ workflows:
   android-kivy-debug:
     name: Android Kivy Debug APK
     max_build_duration: 120
-    environment:
-      vars:
-        APP_DIR: android_app
-      python: 3.11
+    working_directory: android_app
     scripts:
       - name: Install Linux dependencies
         script: |
