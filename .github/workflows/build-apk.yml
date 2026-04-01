@@ -50,7 +50,10 @@ jobs:
             cd /
             rm -rf "${TMP}"
           fi
-          export JAVA_HOME="$(dirname "$(dirname "$(readlink -f "$(which javac)")")")"
+          # sdkmanager needs JDK 17+ (class file 61). GHA's default "javac" can be Java 11.
+          export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+          export PATH="${JAVA_HOME}/bin:${PATH}"
+          java -version
           # GHA bash uses pipefail; "yes" may get SIGPIPE and non-zero — turn pipefail off for this line.
           set +o pipefail
           yes | "${SDK}/cmdline-tools/latest/bin/sdkmanager" --sdk_root="${SDK}" --licenses
