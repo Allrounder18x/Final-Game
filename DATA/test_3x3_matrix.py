@@ -118,7 +118,7 @@ def run_3x3_test(num_balls=10000):
     print(f"BATTING AVERAGES (Runs per Dismissal)")
     print(f"Target: Elite ~50, Good ~40, Average ~25")
     print(f"{'-'*70}")
-    print(f"{'Batter \\ Bowler':<20}", end='')
+    print("{:<20}".format("Batter \\ Bowler"), end='')
     for bowl_name, _ in bowler_categories:
         print(f"{bowl_name:>16}", end='')
     print()
@@ -136,7 +136,7 @@ def run_3x3_test(num_balls=10000):
     print(f"BOWLING AVERAGES (Runs Conceded per Wicket)")
     print(f"Target: Elite ~22, Good ~30, Average ~40+")
     print(f"{'-'*70}")
-    print(f"{'Bowler \\ Batter':<20}", end='')
+    print("{:<20}".format("Bowler \\ Batter"), end='')
     for bat_name, _ in batter_categories:
         print(f"{bat_name:>16}", end='')
     print()
@@ -153,7 +153,7 @@ def run_3x3_test(num_balls=10000):
     print(f"\n{'='*70}")
     print(f"STRIKE RATES (Runs per 100 balls)")
     print(f"{'-'*70}")
-    print(f"{'Batter \\ Bowler':<20}", end='')
+    print("{:<20}".format("Batter \\ Bowler"), end='')
     for bowl_name, _ in bowler_categories:
         print(f"{bowl_name:>16}", end='')
     print()

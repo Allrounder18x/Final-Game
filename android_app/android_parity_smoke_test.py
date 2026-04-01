@@ -92,7 +92,8 @@ def run() -> None:
             break
         time.sleep(0.5)
     _assert(not status.get("running"), "Season simulation job timed out")
-    _assert(not status.get("error"), f"Season simulation job failed: {status.get('error')}")
+    season_error = status.get("error")
+    _assert(not season_error, f"Season simulation job failed: {season_error}")
 
     # Summary/report filters
     summary = service.get_recent_season_summary_filtered(match_format="T20", team_filter="All Teams", tier_filter=0, limit=30)
