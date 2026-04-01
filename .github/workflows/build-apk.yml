@@ -32,7 +32,7 @@ jobs:
           . ~/buildozer-env/bin/activate
           pip install --upgrade pip
           # Cython 3.1+ removed the `long` builtin; pyjnius (Kivy) still hits it in .pxi — pin <3.1
-          pip install "Cython>=0.29.36,<3.1" buildozer
+          pip install "Cython==0.29.36" buildozer
 
       - name: Patch Buildozer to use cmdline-tools sdkmanager
         run: |

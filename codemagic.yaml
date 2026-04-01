@@ -25,7 +25,7 @@ workflows:
           python3 -m venv ~/buildozer-env
           . ~/buildozer-env/bin/activate
           pip install --upgrade pip
-          pip install "Cython>=0.29.36,<3.1" buildozer
+          pip install "Cython==0.29.36" buildozer
       - name: Build debug APK
         script: |
           set -e
